@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="89E7A879-651D-100F-F084-F8CE7DA56A3B" mainViewID="61DFE8E7-7A9E-178D-C63D-C43AE3D2292D">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:00:25 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

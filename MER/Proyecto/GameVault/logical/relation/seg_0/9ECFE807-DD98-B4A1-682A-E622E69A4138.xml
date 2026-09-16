@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="9ECFE807-DD98-B4A1-682A-E622E69A4138">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-08-29 20:19:46 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<sourcePk>D6912FB6-DD45-1CEA-250C-00ECFE4F6998</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>publishes</nameOnSource>
+<nameOnTarget>belongs</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AABB4381-8979-7AC0-F565-69D7EB21024C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E3CF081-9597-990E-0EB1-D1EAD4EAB966</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

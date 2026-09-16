@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="C77892D9-24D5-3A3D-4049-050EE2121BDB" name="Arc_5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-09-03 14:47:52 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<entity>0E186682-A097-00BE-38D4-2D4D6580C576</entity>
+<relations>
+<relationID>CCAA015F-85C3-2ACD-4611-72612557D2BB</relationID>
+<relationID>51D808B2-B9F7-D326-C5E2-2B037121DD9B</relationID>
+</relations>
+</Arc>
