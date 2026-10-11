@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67974478-E681-96FC-5462-6BDAB21A16ED" name="DISCOUNT">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>F0D98702-117F-FC2E-CEEC-92A34A303637</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="B2EEFA65-DC72-CC75-0D6B-8DB73E7893E7">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>994B1D2A-80AA-5BE5-9036-D10BFE945576</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="049EAD50-57CB-3B6C-8627-E809C4ABACEE">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>33DEB273-E4D2-2D23-6631-3418C1D652D0</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="close_date" id="259CD1C1-9750-C083-BD67-FC5BEA7A8192">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>5575E9B6-28C7-320C-1FB1-FDFCD9C24DA5</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAME_id" id="54805112-7B8B-90CB-7AC0-726E54EAD4AB">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>9EA5AE6C-6C76-E0B1-3C39-0D69AEC75473</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F65910FC-E0DD-C832-7DFB-AE0D751C977C" referredColumn="CB656DF8-B753-6148-7DBD-F5CD26A613FD"/>
+</associations>
+</Column>
+<Column name="DLC_id" id="9948A72F-6110-6DBA-46BB-EC150C9F3B0C">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>F895978C-DE4A-E595-5A9D-88C11B3FFDAB</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8596D99-F77B-2237-EB98-E7E52651AF33" referredColumn="73A5DB49-C87F-152E-FBF3-BC1FF1908895"/>
+</associations>
+</Column>
+<Column name="value" id="500C2494-F2B8-7C95-7897-4ECA415AD41B">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>0E4AF77F-8B65-84FE-11C4-2DFEF074A640</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A17CE768-3518-037F-0DDE-0C4EE19C8A49" name="DISCOUNT_PK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>8DFD8D38-90EE-CF44-A00E-D1C020754B5E</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2EEFA65-DC72-CC75-0D6B-8DB73E7893E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6619D8F0-15A5-4F70-EB8F-64AD7C1B97C5" name="DISCOUNT_DLC_FK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>1848C4C6-F285-19F5-851A-222B054B4F24</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9948A72F-6110-6DBA-46BB-EC150C9F3B0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A7CEBFB-4C17-B8F4-BD91-2A4E36A32F62" name="DISCOUNT_GAME_FK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:20 UTC</createdTime>
+<generatorID>B0F16D7D-E69C-4409-8A5F-486F4E55F443</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54805112-7B8B-90CB-7AC0-726E54EAD4AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

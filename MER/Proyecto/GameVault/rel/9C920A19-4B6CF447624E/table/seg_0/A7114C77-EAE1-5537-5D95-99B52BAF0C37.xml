@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7114C77-EAE1-5537-5D95-99B52BAF0C37" name="ADQUISITION_TYPE">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>01828B54-09DA-719B-8DE0-A9F6DEE2AE90</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="8A0D3636-8A33-552A-C3B1-AA36C70FB03A">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>4EE1572F-DB07-B80D-C34E-2C8F4FDB7B56</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIBRARY_REGISTRY_CLIENT_id" id="F7A3052B-9780-1898-155E-3C9860CEE3A0">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>B9D99AFE-6688-1282-7774-FAFB986E09E6</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAAD54BE-2E56-1BC0-399F-F85CBE4D929D" referredColumn="B49BA410-1783-98B9-E64D-21CFC0E63C95"/>
+</associations>
+</Column>
+<Column name="LIBRARY_REGISTRY_GAME_id" id="2172793F-1777-812A-B504-54F32DFD77DB">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>083F2766-3C21-CEE9-5BE1-6521900CE360</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAAD54BE-2E56-1BC0-399F-F85CBE4D929D" referredColumn="F775747B-3A8B-24E9-77C1-3781C2C401D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="542AA0FF-B464-39A9-9A7F-561E7AF314B9" name="ADQUISITION_TYPE_PK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>A7510E78-03BB-29AE-CED3-1A77671BA728</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A0D3636-8A33-552A-C3B1-AA36C70FB03A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E14AD1B8-4748-427E-AC39-46F6AB3503BC" name="ADQUISITION_TYPE_LIBRARY_REGISTRY_FK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:20 UTC</createdTime>
+<generatorID>C1D5BB45-AEF4-355C-60D4-115E31031221</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7A3052B-9780-1898-155E-3C9860CEE3A0"/>
+<colUsage columnID="2172793F-1777-812A-B504-54F32DFD77DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

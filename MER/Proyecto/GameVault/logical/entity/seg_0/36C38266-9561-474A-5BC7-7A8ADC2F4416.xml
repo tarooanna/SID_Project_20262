@@ -51,6 +51,16 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="adquisition_date" id="B39BF5B7-135E-90B0-4D72-1F366C8565E8">
+<createdBy>samlo</createdBy>
+<createdTime>2026-09-30 15:03:03 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A2AF13E9-8822-995C-8BEC-5FBBB7AA01A2" name="LIBRARY_REGISTRY PK">

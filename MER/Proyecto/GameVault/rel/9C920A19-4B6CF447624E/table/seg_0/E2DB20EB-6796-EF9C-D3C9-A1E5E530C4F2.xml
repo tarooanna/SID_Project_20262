@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2DB20EB-6796-EF9C-D3C9-A1E5E530C4F2" name="DLC">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>3E3CF081-9597-990E-0EB1-D1EAD4EAB966</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="73A5DB49-C87F-152E-FBF3-BC1FF1908895">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>CA49FC46-E9AB-2ED2-5593-1615CDF60427</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E434BD2A-0FA3-4907-B186-DFCEB65867ED">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>758D1E61-5465-2A47-A48A-E00299A7D38F</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="base_price" id="681AE904-ACCC-6F8B-FC2F-CCA3EE23A12B">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>2525D3F3-71F8-0A4D-5FF5-D06A16F355F9</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="launch_date" id="F79E8FDB-1DFF-DBCE-D85A-CB1DA7E281B2">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>76620B60-CBAE-FB4C-7915-2A84568F4190</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAME_id" id="9C18E240-7BCE-9043-57EC-DC43DBEA2D4C">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>72AE1BFA-68DF-4386-1564-D050CC33A88A</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="295768A1-1141-9C0C-8E61-A0146D4EF916" referredColumn="CB656DF8-B753-6148-7DBD-F5CD26A613FD"/>
+</associations>
+</Column>
+<Column name="PUBLISHER_id" id="A0A726F3-ECDB-E48C-B8E7-60E9F245BBC3">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>7CF768DC-F669-9E72-70CC-8614198EBD65</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BE33A4C-DF5F-9170-698F-D4A83D981881" referredColumn="052F84D9-FEE2-213D-0F59-33DA667705A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="072EC4D5-2F1D-9036-7FDB-C069C46B0116" name="DLC_PK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>56BA5B52-BF96-1DD9-5918-A5C6F1F083ED</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73A5DB49-C87F-152E-FBF3-BC1FF1908895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E93A84DD-3F80-7A95-0DB5-97B806AF580F" name="DLC_GAME_FK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>634D59A7-7CF4-0A43-B3D0-F808B914BAC4</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C18E240-7BCE-9043-57EC-DC43DBEA2D4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00FB45CD-0720-59E6-C708-ACE8CE3A50A2" name="DLC_PUBLISHER_FK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:20 UTC</createdTime>
+<generatorID>9ECFE807-DD98-B4A1-682A-E622E69A4138</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A726F3-ECDB-E48C-B8E7-60E9F245BBC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

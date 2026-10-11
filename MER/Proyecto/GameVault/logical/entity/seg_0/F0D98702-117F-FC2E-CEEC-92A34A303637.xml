@@ -26,17 +26,6 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="percentage" id="08BCCD9C-F9BC-94E7-E06A-ACB79956A4AA">
-<createdBy>samlo</createdBy>
-<createdTime>2026-08-26 16:09:23 UTC</createdTime>
-<ownerDesignName>GameVault</ownerDesignName>
-<engineerTo>
-<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="start_date" id="33DEB273-E4D2-2D23-6631-3418C1D652D0">
 <createdBy>samlo</createdBy>
 <createdTime>2026-08-26 16:09:38 UTC</createdTime>
@@ -73,16 +62,6 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="is_global" id="FE669C85-1DA4-9056-A02B-A0BF9E5DD9CA">
-<createdBy>LENOVO</createdBy>
-<createdTime>2026-08-29 20:22:07 UTC</createdTime>
-<ownerDesignName>GameVault</ownerDesignName>
-<engineerTo>
-<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id" id="F895978C-DE4A-E595-5A9D-88C11B3FFDAB">
 <createdBy>LENOVO</createdBy>
 <createdTime>2026-08-29 20:37:20 UTC</createdTime>
@@ -95,6 +74,16 @@
 <referedAttribute>CA49FC46-E9AB-2ED2-5593-1615CDF60427</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="0E4AF77F-8B65-84FE-11C4-2DFEF074A640">
+<createdBy>samlo</createdBy>
+<createdTime>2026-09-30 15:04:22 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

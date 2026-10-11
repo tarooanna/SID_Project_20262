@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_1" directorySegmentName="seg_0" id="F6B45C07-87EC-A11F-7EED-BFADC6BA6CF0">
+<createdBy>samlo</createdBy>
+<createdTime>2026-09-30 14:34:55 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>F0D98702-117F-FC2E-CEEC-92A34A303637</sourceEntity>
+<targetEntity>C68A059A-6164-E373-BF9D-30FA0736B4A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAD628CB-5B15-0C89-568A-251EC3F53469" name="CLIENT">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>55D0B4C5-186F-09D8-4E11-3AB4189ECC9D</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3F365B6B-9A08-C765-7923-851F456E1DC8">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>B3E28AD2-8D0C-6519-FB88-C3CEF0F0F9E2</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B08EC648-6DDA-1C96-020B-88FBB458C19A">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>EADD22C8-F3B2-B71A-7320-61F9D49C0896</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="6736DEE6-5BAC-2C57-B784-EF24B14CDC65">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>051B73AB-5BDC-C2E3-3C35-3B596B9FF24C</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="register_date" id="774F0C8E-AE57-10E0-7362-0CD2C43E842A">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>0FBF6B89-83EC-3B58-FC6A-4B4377333B90</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PURCHASE_DETAIL_GAME_id" id="3BEA6430-D967-C7B4-6AA6-6F0685CCD0F5">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>CFEFE9A1-1D2B-C770-38C0-BA9D8907237E</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B53DC0DF-CF01-0EAF-1468-513519FE7BB7" referredColumn="7FB71EB0-C492-0604-7422-2EABFCD4E6BC"/>
+</associations>
+</Column>
+<Column name="PURCHASE_DETAIL_DLC_id" id="9923B241-B54F-1E13-DE8B-7D5C3FB82EB8">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>9DE9AA47-52CC-D779-2FE8-7F1AF6419769</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B53DC0DF-CF01-0EAF-1468-513519FE7BB7" referredColumn="6EAD769E-27AE-8F1C-E578-6FDF793965CC"/>
+</associations>
+</Column>
+<Column name="PURCHASE_DETAIL_PURCHASE_id" id="16C37A9B-4057-6669-66BD-D2E511CCE4BF">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>FF036405-F70F-83C3-35D0-2B46A77F6E8D</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B53DC0DF-CF01-0EAF-1468-513519FE7BB7" referredColumn="D95CAAB2-6478-A119-5FAC-2B2FB85CF61F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90EC11BD-8057-A791-046B-EFC6C41DA824" name="CLIENT_PK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>125CAE69-9A5E-AC3D-BE45-49B1586F7344</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F365B6B-9A08-C765-7923-851F456E1DC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B594103-0B0D-BF4C-D6BB-04B6BCF9BE3D" name="CLIENT__IDX">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1965A8F5-34FD-97ED-E3C1-C7C71509C772</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3BEA6430-D967-C7B4-6AA6-6F0685CCD0F5"/>
+<colUsage columnID="9923B241-B54F-1E13-DE8B-7D5C3FB82EB8"/>
+<colUsage columnID="16C37A9B-4057-6669-66BD-D2E511CCE4BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B32301CB-0526-F7F4-DD3C-06EE2A0D2515" name="CLIENT_PURCHASE_DETAIL_FK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-10-11 02:45:19 UTC</createdTime>
+<generatorID>1965A8F5-34FD-97ED-E3C1-C7C71509C772</generatorID>
+<ownerDesignName>GameVault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BEA6430-D967-C7B4-6AA6-6F0685CCD0F5"/>
+<colUsage columnID="9923B241-B54F-1E13-DE8B-7D5C3FB82EB8"/>
+<colUsage columnID="16C37A9B-4057-6669-66BD-D2E511CCE4BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

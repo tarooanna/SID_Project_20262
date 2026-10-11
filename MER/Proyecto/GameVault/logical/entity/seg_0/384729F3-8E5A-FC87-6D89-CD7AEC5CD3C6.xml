@@ -61,6 +61,16 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="total_amount" id="0922F7C5-599C-FC73-CABA-6705AB168781">
+<createdBy>samlo</createdBy>
+<createdTime>2026-09-30 14:56:45 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C3018A7F-90C8-ABC7-A5CB-EBEA5B41A6C1" name="PURCHASE PK">

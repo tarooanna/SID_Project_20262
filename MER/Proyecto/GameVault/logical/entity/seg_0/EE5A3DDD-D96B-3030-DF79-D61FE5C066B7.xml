@@ -54,7 +54,7 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="price" id="B4BD78A9-34C1-82E7-CFC8-8A8C75261DFA">
+<Attribute name="original_price" id="B4BD78A9-34C1-82E7-CFC8-8A8C75261DFA">
 <createdBy>LENOVO</createdBy>
 <createdTime>2026-09-03 14:35:57 UTC</createdTime>
 <ownerDesignName>GameVault</ownerDesignName>
@@ -76,6 +76,26 @@
 <referedAttribute>B3E28AD2-8D0C-6519-FB88-C3CEF0F0F9E2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discount_amount" id="2C289B2F-963D-C101-7377-FD56E14BA2DB">
+<createdBy>samlo</createdBy>
+<createdTime>2026-09-30 14:55:53 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="final_price" id="75BBCCE6-BD15-40E9-8CCF-60B557B04E12">
+<createdBy>samlo</createdBy>
+<createdTime>2026-09-30 14:56:25 UTC</createdTime>
+<ownerDesignName>GameVault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
