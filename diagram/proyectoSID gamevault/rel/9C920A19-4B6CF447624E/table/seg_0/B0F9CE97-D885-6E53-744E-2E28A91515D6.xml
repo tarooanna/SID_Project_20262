@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0F9CE97-D885-6E53-744E-2E28A91515D6" name="ACHIEVEMENTS">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>D90C77ED-C46B-386B-B6D7-7C52C82277BB</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<ordsAlias>achievment</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="341272AE-A73C-6F04-6D81-490BCB14227D">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>3C0DE8D6-9E83-F22F-9186-C711427C2166</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F900A5D7-BC91-E81B-C920-4B2FAF0DBF7A">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>CC9A2329-7DF1-788E-36A0-A6F0408DBBCE</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="8D6E8480-F9AD-7F0C-57B9-2C3E4EBB0448">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>2404428F-F117-FA64-49C1-D50175E292B3</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="points" id="DCCEF881-CE14-2631-B8E9-776679D61A1D">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>6E005F4E-30DA-221A-ABA0-7F56FA80AD52</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1000000</dataTypeSize>
+<ownDataTypeParameters>1000000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_id" id="2A388012-85F9-BA6F-CAA6-AF3901D2AF9E">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>EA4402FA-7EAB-D6D9-6F9E-B3B9B142D212</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2621AC2-F6E0-E204-5A59-81716A0425F5" referredColumn="318CC614-0ED6-7F4F-6C0E-43A2FF60A6DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9434354-8B3D-E2C4-AB09-8FC60A2BD9C0" name="ACHIEVMENT_PK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>E44A063D-4268-DD56-0B45-1DE9ECF92D79</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341272AE-A73C-6F04-6D81-490BCB14227D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74919A23-3F34-6D7F-9353-90FEB6E61F85" name="ACHIEVMENT_GAME_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>1A6C6DCE-2C2D-605E-7539-A7F7DA32223F</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A388012-85F9-BA6F-CAA6-AF3901D2AF9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

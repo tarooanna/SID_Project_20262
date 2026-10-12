@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE5A3DDD-D96B-3030-DF79-D61FE5C066B7" name="PURCHASE_DETAIL">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-09-03 14:32:50 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9A00E490-6D39-5F60-2AC5-44228A9177EB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-09-03 14:33:38 UTC</createdTime>
+<generatorID>DC8F238D-C50F-D63A-85D9-F3846D397806</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<referedAttribute>393C94E1-05C9-7C36-557C-263F8B6A79F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="865DFC79-004B-A0F5-1593-B48B0437B980">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-09-03 14:34:16 UTC</createdTime>
+<generatorID>223FF727-09AF-DBE2-FF94-C5414AA7F734</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<referedAttribute>CA49FC46-E9AB-2ED2-5593-1615CDF60427</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="F1856DBA-B810-8C81-0BA0-C9818A0C685E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-09-03 14:34:57 UTC</createdTime>
+<generatorID>77D7A123-57A3-636A-A79C-A41E3CC438FB</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<referedAttribute>DB304FF2-7D43-E101-0216-2BDCAB7D367B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="713BB49F-D36D-4A23-09A1-315822687102">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 21:19:31 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paid_price" id="8FA49D52-4F84-0142-3C5A-00C88D0FE017">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 22:40:01 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="51D1A1C3-ED7C-D7DE-0D55-02EE92BBAEB1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 23:03:23 UTC</createdTime>
+<generatorID>1965A8F5-34FD-97ED-E3C1-C7C71509C772</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B3E28AD2-8D0C-6519-FB88-C3CEF0F0F9E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code1" id="9D83B3E3-C6D2-C1A8-7C53-5859A357B3EC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 23:05:31 UTC</createdTime>
+<generatorID>CF28FA90-E752-DA84-0796-ABA80AE7D42D</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>994B1D2A-80AA-5BE5-9036-D10BFE945576</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D9930B5-4C26-8B22-BD28-8F9366DCDF9B" name="PURCHASE_DETAIL PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-09-03 14:34:33 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>713BB49F-D36D-4A23-09A1-315822687102</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

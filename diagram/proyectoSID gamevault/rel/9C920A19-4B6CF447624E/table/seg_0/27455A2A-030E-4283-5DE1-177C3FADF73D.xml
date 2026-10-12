@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27455A2A-030E-4283-5DE1-177C3FADF73D" name="LIBRARY_DLCS">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-12 00:24:29 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="library_registry_code" id="EB6A1277-4DDF-661C-769E-DB6416640994">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-12 00:24:51 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53D5BD1B-C6A3-F354-E5E2-359D7930A948" referredColumn="E70228FD-5119-E11E-7B83-988D67CD9F27"/>
+</associations>
+</Column>
+<Column name="dlc_id" id="F09302BD-BD5C-9F4C-CDAB-A974A4FE20F1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-12 00:24:58 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E6DA7C7-C4C0-F144-5B63-F0EDCFD86912" referredColumn="61CE9722-B63E-A1DA-8B96-A69614A53040"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3961BF2D-74E4-13A4-4387-502384B99289" name="LIBRARY_DLCS_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-12 00:25:41 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6A1277-4DDF-661C-769E-DB6416640994"/>
+<colUsage columnID="F09302BD-BD5C-9F4C-CDAB-A974A4FE20F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B01EE03-CD0C-07F9-BB53-0A6CBC8CB16A" name="LIBRARY_DLCS_LIBRARY_REGISTRIES_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-12 00:24:51 UTC</createdTime>
+<generatorID>A2AF13E9-8822-995C-8BEC-5FBBB7AA01A2</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6A1277-4DDF-661C-769E-DB6416640994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DCCB98E-1C87-3CAC-0058-F01DE7F119FC" name="LIBRARY_DLCS_DLC&apos;S_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-12 00:24:58 UTC</createdTime>
+<generatorID>56BA5B52-BF96-1DD9-5918-A5C6F1F083ED</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09302BD-BD5C-9F4C-CDAB-A974A4FE20F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

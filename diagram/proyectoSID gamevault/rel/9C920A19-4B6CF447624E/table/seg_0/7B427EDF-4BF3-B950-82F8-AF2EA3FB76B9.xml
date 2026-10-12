@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B427EDF-4BF3-B950-82F8-AF2EA3FB76B9" name="PUBLISHERS">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>AABB4381-8979-7AC0-F565-69D7EB21024C</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<ordsAlias>publisher</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0155882B-13A0-0D5A-EB5B-C5D4F08C9CE4">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>A9C673B1-5EB8-5C24-C188-7816A1F5258E</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="096095CD-B80F-0866-9832-5D41BFEBF23B">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>9576479F-5072-1312-EF70-F3E3AD4A8243</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="E7202553-A05A-47D5-A9CF-A31DA5436FD3">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>73D95904-A4EC-9B82-31C9-820F89EA10C4</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="website" id="00BDCD1D-AF55-EEFA-32D0-446C99C350BC">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>2B6CF823-7436-73E4-0290-86C0BC08F628</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT030</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="205BCE21-FA57-BF91-AB17-E57FFB203314" name="PUBLISHER_PK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>D6912FB6-DD45-1CEA-250C-00ECFE4F6998</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0155882B-13A0-0D5A-EB5B-C5D4F08C9CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47D3044A-5681-F560-F2E5-83B283F9DDE4" name="REVIEW">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:06:44 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EEC5E89F-8412-EC1A-9E75-F6AC9CB41C2D">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:06:56 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="score" id="ACA880D4-B98B-8C49-3B91-69FE15FE2A15">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:07:02 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="5F4359E2-80AC-2A22-ABD4-657B8149077E">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:07:22 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="CBBBB129-082B-8538-DF7C-32724B9AB8D8">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:07:35 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="33109282-19D1-7362-7240-F210DA182390">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-08-29 20:09:32 UTC</createdTime>
+<generatorID>650AC622-93B9-64C1-773A-3F2568C9DF02</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<referedAttribute>393C94E1-05C9-7C36-557C-263F8B6A79F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="B682D1AB-71DD-31B6-29C4-655310E27A5E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-08-29 20:18:12 UTC</createdTime>
+<generatorID>FE1CAD26-B2C3-EF2C-CD2C-1A94D7E599E7</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<referedAttribute>B3E28AD2-8D0C-6519-FB88-C3CEF0F0F9E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="37B28132-FA11-7F35-E8C4-39E468ADCF8D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-08-29 20:38:20 UTC</createdTime>
+<generatorID>E017DD71-574A-6ED1-1465-BD6EC45E33A4</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<referedAttribute>CA49FC46-E9AB-2ED2-5593-1615CDF60427</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC3EB6CA-3D3B-5C20-D2F6-A3F60ADD91C2" name="REVIEW PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-08-29 20:09:42 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33109282-19D1-7362-7240-F210DA182390</attributeRef>
+<attributeRef>B682D1AB-71DD-31B6-29C4-655310E27A5E</attributeRef>
+<attributeRef>EEC5E89F-8412-EC1A-9E75-F6AC9CB41C2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

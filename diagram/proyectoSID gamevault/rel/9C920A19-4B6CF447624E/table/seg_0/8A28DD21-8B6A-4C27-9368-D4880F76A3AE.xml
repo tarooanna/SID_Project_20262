@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A28DD21-8B6A-4C27-9368-D4880F76A3AE" name="GAME_CATEGORIES">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_id" id="6A7EC69B-EB44-65F3-C924-2E9B7BD245E0">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE673AB1-775C-018A-42AB-961B50CB6D42" referredColumn="318CC614-0ED6-7F4F-6C0E-43A2FF60A6DE"/>
+</associations>
+</Column>
+<Column name="category_name" id="B908AC1D-93AF-E205-D23F-FAE6405EB00D">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51E48132-5FA6-D500-EB8A-92C963CEF057" referredColumn="EA1A3A85-F5DE-50AB-99BC-86D5F208F6FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A63FE66-778C-87BC-D127-413988D1E868" name="GAME_CATEGORIES_PK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A7EC69B-EB44-65F3-C924-2E9B7BD245E0"/>
+<colUsage columnID="B908AC1D-93AF-E205-D23F-FAE6405EB00D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A846E5D1-1171-2A74-0F0E-FEE28EBA564E" name="GAME_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>3E881278-A75B-2233-2C55-0A968585B9D5</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A7EC69B-EB44-65F3-C924-2E9B7BD245E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C73BF6C-C71D-C9C6-CE71-A7FF05462C99" name="CATEGORY_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>3E881278-A75B-2233-2C55-0A968585B9D5</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B908AC1D-93AF-E205-D23F-FAE6405EB00D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

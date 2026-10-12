@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0D98702-117F-FC2E-CEEC-92A34A303637" name="DISCOUNT">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:09:07 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="code" id="994B1D2A-80AA-5BE5-9036-D10BFE945576">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:09:17 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="33DEB273-E4D2-2D23-6631-3418C1D652D0">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:09:38 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="close_date" id="5575E9B6-28C7-320C-1FB1-FDFCD9C24DA5">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:09:53 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="0E4AF77F-8B65-84FE-11C4-2DFEF074A640">
+<createdBy>samlo</createdBy>
+<createdTime>2026-09-30 15:04:22 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="E797FEC7-DB4D-2C84-352E-751860621882">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 21:43:18 UTC</createdTime>
+<generatorID>97874056-FD6D-8BEB-3E1C-A60D52A24B9A</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<referedAttribute>38EE2E18-4BD1-642F-AB27-8FD07CF76777</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8DFD8D38-90EE-CF44-A00E-D1C020754B5E" name="DISCOUNT PK">
+<createdBy>samlo</createdBy>
+<createdTime>2026-08-26 16:09:21 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<engineerTo>
+<item key="9C920A19-0BA5-680E-508A-4B6CF447624E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>994B1D2A-80AA-5BE5-9036-D10BFE945576</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

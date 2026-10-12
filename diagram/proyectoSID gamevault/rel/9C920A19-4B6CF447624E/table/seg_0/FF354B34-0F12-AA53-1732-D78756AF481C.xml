@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF354B34-0F12-AA53-1732-D78756AF481C" name="PURCHASE_DETAILS">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>EE5A3DDD-D96B-3030-DF79-D61FE5C066B7</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<ordsAlias>purchase_detail</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="DDEC0F7C-C8B7-A6B7-C149-7E99D2C6DD73">
+<createdBy>usuario</createdBy>
+<createdTime>2026-10-11 20:29:21 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="purchase_id" id="BDDE1B22-F8E6-3B9E-1D6D-906D4C55CA5A">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>F1856DBA-B810-8C81-0BA0-C9818A0C685E</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4183FC-D5C7-FDA7-112C-EFFAAA382856" referredColumn="64A86ACF-ECCE-E39B-4B4C-461240221EB8"/>
+</associations>
+</Column>
+<Column name="game_id" id="101CA853-38CA-4BF1-9DBB-E5A76848B8AE">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>9A00E490-6D39-5F60-2AC5-44228A9177EB</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26E3A1C0-295E-69AD-6A32-593E52494A5C" referredColumn="318CC614-0ED6-7F4F-6C0E-43A2FF60A6DE"/>
+</associations>
+</Column>
+<Column name="dlc_id" id="F90B7C3F-A613-2084-D461-1A8A8578FEA0">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>865DFC79-004B-A0F5-1593-B48B0437B980</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="305ADFBD-1127-10AC-3287-EDDE47BE8310" referredColumn="61CE9722-B63E-A1DA-8B96-A69614A53040"/>
+</associations>
+</Column>
+<Column name="gift_client_id" id="02E73934-E6CF-D080-91E2-003BE32855DD">
+<createdBy>usuario</createdBy>
+<createdTime>2026-10-11 20:31:30 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D30D5FF6-B7CA-B99B-02CC-2278C27B41B5" referredColumn="0D34B0EA-BEA5-1D95-981A-B2CAC254D7A5"/>
+</associations>
+</Column>
+<Column name="paid_price" id="F84CF606-28EE-B578-E249-D81A5D870557">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 22:46:52 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3ECF60E-D521-AD94-374A-33DC83BB5005" name="PURCHASE_DETAIL_PK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>9D9930B5-4C26-8B22-BD28-8F9366DCDF9B</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDEC0F7C-C8B7-A6B7-C149-7E99D2C6DD73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BEFAD9B-9C8A-C586-69A1-308DA5E51509" name="PURCHASE_DETAIL_GAME_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>DC8F238D-C50F-D63A-85D9-F3846D397806</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="101CA853-38CA-4BF1-9DBB-E5A76848B8AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B401D6AE-1274-C614-675B-681C3B2A83FD" name="PURCHASE_DETAIL_DLC_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>223FF727-09AF-DBE2-FF94-C5414AA7F734</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F90B7C3F-A613-2084-D461-1A8A8578FEA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="641BFC98-D10D-E37B-E8FC-0E652E246A44" name="PURCHASE_DETAIL_PURCHASE_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>77D7A123-57A3-636A-A79C-A41E3CC438FB</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDDE1B22-F8E6-3B9E-1D6D-906D4C55CA5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="583290CE-32B9-1AA3-F7ED-75D317C41193" name="PURCHASE_DETAILS_CLIENT_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2026-10-11 20:31:30 UTC</createdTime>
+<generatorID>125CAE69-9A5E-AC3D-BE45-49B1586F7344</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E73934-E6CF-D080-91E2-003BE32855DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="52F8C7EF-BF04-0AAA-8D74-E3AB77C5A2AD" name="FKArc_8">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 22:37:56 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<mandatory>false</mandatory>
+<table>19DB518D-9001-55E2-7D1F-06B98CF4E4D4</table>
+<fkeys>
+<fkeyID>7870B972-244E-93B9-08A0-0415396AC0AC</fkeyID>
+<fkeyID>CD43CFC0-EC7C-1FD7-433E-99409E3AE011</fkeyID>
+</fkeys>
+</FKArc>

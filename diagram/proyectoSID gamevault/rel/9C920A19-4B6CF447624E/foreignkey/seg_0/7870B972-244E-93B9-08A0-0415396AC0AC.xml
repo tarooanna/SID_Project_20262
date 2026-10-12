@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7870B972-244E-93B9-08A0-0415396AC0AC" containerWithKeyObject="19DB518D-9001-55E2-7D1F-06B98CF4E4D4" localFKIndex="E7600C98-B5B2-AD87-085E-45C47991633A" name="REVIEW_GAME_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>650AC622-93B9-64C1-773A-3F2568C9DF02</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<referredTableLongName>GAMES</referredTableLongName>
+<arc>52F8C7EF-BF04-0AAA-8D74-E3AB77C5A2AD</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64FE4472-9858-BF89-FA9C-E46CF44A43FC</referredTableID>
+<keyObject>DBE79C0E-185F-910E-74A8-DD954A7F39B4</keyObject>
+<referredKeyID>DBE79C0E-185F-910E-74A8-DD954A7F39B4</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

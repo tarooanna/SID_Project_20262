@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E6DA7C7-C4C0-F144-5B63-F0EDCFD86912" containerWithKeyObject="27455A2A-030E-4283-5DE1-177C3FADF73D" localFKIndex="7DCCB98E-1C87-3CAC-0058-F01DE7F119FC" name="LIBRARY_DLCS_DLC&apos;S_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-12 00:24:58 UTC</createdTime>
+<generatorID>56BA5B52-BF96-1DD9-5918-A5C6F1F083ED</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<referredTableLongName>DLC&apos;S</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E636108F-960F-1FB8-EA1D-A3A05B3E5C7F</referredTableID>
+<keyObject>1AF4D786-D80C-E043-1349-DD4EC7F8793A</keyObject>
+<referredKeyID>1AF4D786-D80C-E043-1349-DD4EC7F8793A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

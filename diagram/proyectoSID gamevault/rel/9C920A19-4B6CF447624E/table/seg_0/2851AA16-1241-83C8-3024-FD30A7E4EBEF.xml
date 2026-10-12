@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2851AA16-1241-83C8-3024-FD30A7E4EBEF" name="LIBRARY_REGISTRIES">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>36C38266-9561-474A-5BC7-7A8ADC2F4416</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<ordsAlias>library_registry</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="E70228FD-5119-E11E-7B83-988D67CD9F27">
+<createdBy>usuario</createdBy>
+<createdTime>2026-10-11 20:51:38 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_id" id="38E67F48-C273-B9C9-A488-9BF8E490E80A">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>EC1F5247-D1B3-0515-589E-2903D57E0547</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="313C39A9-134E-F907-3CCD-B64612FD541B" referredColumn="0D34B0EA-BEA5-1D95-981A-B2CAC254D7A5"/>
+</associations>
+</Column>
+<Column name="hours_played" id="5F31C61D-D589-7440-D755-A33E2ADD8668">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>33C99E6E-2FBE-5437-84CC-17EEFEE4AF76</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_id" id="CD1BDBDF-06ED-54DC-50D5-E11A4E7951BF">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>2FEE200E-5664-CEC9-5BF8-1FD56258EAE9</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA40FAAA-77A0-CEE0-7304-CB677E823040" referredColumn="318CC614-0ED6-7F4F-6C0E-43A2FF60A6DE"/>
+</associations>
+</Column>
+<Column name="acquisition_type" id="C8C929B4-44DE-9DFE-74DA-8782E53F2732">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 22:03:04 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27F2B3DD-5852-931E-1FE2-AA57AC69626A" referredColumn="6167B173-A655-7A38-A4EA-48DD33B03FCF"/>
+</associations>
+</Column>
+<Column name="acquisition_date" id="02A6A69E-CA94-E31B-3062-6B5E90FB9437">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 22:49:06 UTC</createdTime>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECADC1AE-713F-C0FF-4AA6-509FA0EFCF63" name="LIBRARY_REGISTRY_PK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>A2AF13E9-8822-995C-8BEC-5FBBB7AA01A2</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E70228FD-5119-E11E-7B83-988D67CD9F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA31917B-C869-EB82-4411-4DFBCBF0C9D8" name="LIBRARY_REGISTRY_CLIENT_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>8A36FEEE-DB7E-319F-5C1D-44B52D685BCA</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E67F48-C273-B9C9-A488-9BF8E490E80A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C9F2F29-6709-1DA3-5629-643A2AC6AF1A" name="LIBRARY_REGISTRY_GAME_FK">
+<createdBy>Juan Borrero</createdBy>
+<createdTime>2026-10-11 18:40:48 UTC</createdTime>
+<generatorID>913B4C4F-DAEE-E84B-8F64-7A2CA912DB77</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD1BDBDF-06ED-54DC-50D5-E11A4E7951BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66C666E8-7D06-C847-0330-444B93ED3F07" name="LIBRARY_REGISTRIES_ACQUISITION_TYPES_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-11 22:03:04 UTC</createdTime>
+<generatorID>A7510E78-03BB-29AE-CED3-1A77671BA728</generatorID>
+<ownerDesignName>proyectoSID gamevault</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8C929B4-44DE-9DFE-74DA-8782E53F2732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
